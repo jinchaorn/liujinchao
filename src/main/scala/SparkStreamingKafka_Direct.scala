@@ -30,6 +30,7 @@ object SparkStreamingKafka_Direct {
     ssc.start()
     //等待整个批次计算完成
     ssc.awaitTermination()
+    ssc.awaitTermination()
 
   }
 }
