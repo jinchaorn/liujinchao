@@ -10,7 +10,7 @@ object PV {
         val file: RDD[String] = sc.textFile(args(0))
         //统计次数
         val count: Long = file.count()
-          println(count)
+          println(count+"xiugai")
     sc.stop()
   }
 
